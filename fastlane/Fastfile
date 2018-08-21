@@ -2,7 +2,7 @@ lane :beta do
   
 gym(
     project: 'Example.xcodeproj',
-    scheme: 'ExampleUITests',
+    scheme: 'Example',
     export_options: {
     method: "enterprise"}  
 )
@@ -10,12 +10,12 @@ gym(
 run_tests(
     devices: ["iPhone 6"],
     project: 'Example.xcodeproj',
-    scheme: 'ExampleUITests'
+    scheme: 'Example'
 )
 
 snapshot(
     project: 'Example.xcodeproj',
-    scheme: 'ExampleUITests',
+    scheme: 'Example',
     devices: ['iPhone 6'],
     output_simulator_logs: true,
     clear_previous_screenshots: true
