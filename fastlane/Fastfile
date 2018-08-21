@@ -25,7 +25,7 @@ snapshot(
 
 hockey(
   api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
-  ipa: "/Users/devsuri/Documents/final/final.ipa",
+  ipa: "/Users/devsuri/Desktop/snapshot/Example.ipa",
   notes: "Changelog",
 )
 end
