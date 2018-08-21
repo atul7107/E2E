@@ -13,8 +13,6 @@ run_tests(
     scheme: 'ExampleUITests'
 )
 
-sonar
-
 snapshot(
     project: 'Example.xcodeproj',
     scheme: 'ExampleUITests',
